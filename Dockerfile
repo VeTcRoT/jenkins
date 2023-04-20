@@ -1,3 +1,3 @@
-FROM apache
-COPY /var/www/html/index.html
+FROM php:apache
+COPY index.html /var/www/html/
 EXPOSE 80
